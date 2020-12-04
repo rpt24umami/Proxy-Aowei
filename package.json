@@ -1,0 +1,32 @@
+{
+  "name": "proxy-aowei",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpt24umami/Proxy-Aowei.git"
+  },
+  "author": "Aowei Chenqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpt24umami/Proxy-Aowei/issues"
+  },
+  "homepage": "https://github.com/rpt24umami/Proxy-Aowei#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-loader": "^8.2.2"
+  }
+}
