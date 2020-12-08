@@ -1,0 +1,24 @@
+body {
+  width: 714.656px;
+  background-color: #fff;
+  box-sizing: border-box;
+  color: #222;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  padding-bottom: 10px;
+  font: 12px;
+  font-family: Proxima Nova,Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding: 0 64px;
+  min-width: 13em;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-left: 15%;
+}
+
+#moduleContainer {
+  display: inline-block;
+}
+
+.buyimg {
+  float: right;
+  position: sticky;
+}

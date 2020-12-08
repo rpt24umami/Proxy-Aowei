@@ -8,8 +8,8 @@ const port = 3000;
 app.use(cors());
 app.use(express.static(path.join(__dirname,'../dist')));
 
-app.get('/', (req, res) => {
-  res.send('index.html');
+app.get('/products/:id', (req, res) => {
+  res.sendFile(path.join(__dirname,'../dist/index.html'));
 });
 
 app.listen(port, () => {
