@@ -13,13 +13,22 @@ body {
   line-height: 1.5;
   margin-left: 15%;
 }
+.headimg {
+  grid-area: header;
+}
+.buyimg {
+  grid-area: right;
+}
+.service {
+  grid-area: main;
+}
 
 #moduleContainer {
-  display: inline-block;
+  display: grid;
+  grid-template-areas: 'main main main right' 'main main main right' 'main main main right'
 }
 
 .buyimg {
-  float: right;
   position: sticky;
 }
 
