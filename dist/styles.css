@@ -22,3 +22,7 @@ body {
   float: right;
   position: sticky;
 }
+
+.buyimg img {
+  position: fixed;
+}
